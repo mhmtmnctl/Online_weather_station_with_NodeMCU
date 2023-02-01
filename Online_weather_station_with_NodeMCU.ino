@@ -6,10 +6,10 @@ LcdI2cTUR lcd(0x27);
 #include <ArduinoJson.h>
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org");
-const char* ssid     = "T50B_2.4G";
-const char* password = "635453Rr522.";
-String APIKEY = "94b17f516833749caad713a4721383c8";        //openweather
-String CityID = "317106";                                 //Your City ID
+const char* ssid     = "your wifi name";
+const char* password = "your password";
+String APIKEY = "your api key";        //openweather
+String CityID = "your city id";                                 //Your City ID
 WiFiClient client;
 char servername[] = "api.openweathermap.org";
 String result;
